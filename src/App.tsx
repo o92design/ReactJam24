@@ -1,11 +1,10 @@
 function App() {
-  return(
+  return (
     <div>
-    <p>Move: A and D</p>
-    <p>Jump: W</p>
-    <p>Move: Swap player: Space</p>
+      <p>Move: A and D</p>
+      <p>Jump: W</p>
+      <p>Move: Swap player: k</p>
     </div>
-
-  )
+  );
 }
-export default App
+export default App;
