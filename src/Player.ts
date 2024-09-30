@@ -94,7 +94,7 @@ export class Player {
     }
   }
 
-  shouldPanCameraToTheRight({ canvas, camera }: any) {
+  shouldPanCameraToTheRight({ camera }: any) {
     if (this.camerabox.position.x <= 0) return;
 
     if (this.camerabox.position.x <= Math.abs(camera.position.x)) {
@@ -102,7 +102,7 @@ export class Player {
     }
   }
 
-  shouldPanCameraDown({ canvas, camera }: any) {
+  shouldPanCameraDown({ camera }: any) {
     if (this.camerabox.position.y + this.velocity.y <= 0) return;
 
     if (this.camerabox.position.y <= Math.abs(camera.position.y)) {
